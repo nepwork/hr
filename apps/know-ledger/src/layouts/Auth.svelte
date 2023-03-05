@@ -2,16 +2,13 @@
   import Router from 'svelte-spa-router';
 
   // components for this layout
-  import AuthNavbar from '../components/Navbars/AuthNavbar.svelte';
   import FooterSmall from '../components/Footers/FooterSmall.svelte';
-
+  import AuthNavbar from '../components/Navbars/AuthNavbar.svelte';
   // pages for this layout
-  import Login from '../views/auth/Login.svelte';
-  import Register from '../views/auth/Register.svelte';
 
   const registerBg2 = '../assets/img/register_bg_2.png';
-  export let location;
-  export let auth = '';
+  export const location = '';
+  export const auth = '';
 </script>
 
 <div>

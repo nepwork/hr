@@ -1,9 +1,7 @@
 <script>
-  import { link } from 'svelte-spa-router';
-
   // core components
-  import IndexNavbar from '../components/Navbars/IndexNavbar.svelte';
   import Footer from '../components/Footers/Footer.svelte';
+  import IndexNavbar from '../components/Navbars/IndexNavbar.svelte';
 
   const patternVue = '/assets/img/pattern_svelte.png';
   const componentBtn = '/assets/img/component-btn.png';
@@ -16,7 +14,7 @@
   const login = '/assets/img/login.jpg';
   const profile = '/assets/img/profile.jpg';
   const landing = '/assets/img/landing.jpg';
-  export let location;
+  // export let location;
 </script>
 
 <IndexNavbar />
