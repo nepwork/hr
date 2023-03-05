@@ -28,7 +28,7 @@
       <div class="relative w-full px-4 max-w-full flex-grow flex-1">
         <h3
           class="font-semibold text-lg {color === 'light'
-            ? 'text-blueGray-700'
+            ? 'text-slate-700'
             : 'text-white'}"
         >
           Card Tables
@@ -44,7 +44,7 @@
           <th
             class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
             'light'
-              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              ? 'bg-slate-50 text-slate-500 border-slate-100'
               : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Project
@@ -52,7 +52,7 @@
           <th
             class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
             'light'
-              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              ? 'bg-slate-50 text-slate-500 border-slate-100'
               : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Budget
@@ -60,7 +60,7 @@
           <th
             class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
             'light'
-              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              ? 'bg-slate-50 text-slate-500 border-slate-100'
               : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Status
@@ -68,7 +68,7 @@
           <th
             class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
             'light'
-              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              ? 'bg-slate-50 text-slate-500 border-slate-100'
               : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Users
@@ -76,7 +76,7 @@
           <th
             class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
             'light'
-              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              ? 'bg-slate-50 text-slate-500 border-slate-100'
               : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Completion
@@ -84,7 +84,7 @@
           <th
             class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
             'light'
-              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              ? 'bg-slate-50 text-slate-500 border-slate-100'
               : 'bg-red-700 text-red-200 border-red-600'}"
           />
         </tr>
@@ -101,7 +101,7 @@
             />
             <span
               class="ml-3 font-bold {color === 'light'
-                ? 'btext-blueGray-600'
+                ? 'btext-slate-600'
                 : 'text-whit'}"
             >
               Argon Design System
@@ -124,22 +124,22 @@
               <img
                 src={team1}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow"
               />
               <img
                 src={team2}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team3}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team4}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -177,7 +177,7 @@
             />
             <span
               class="ml-3 font-bold {color === 'light'
-                ? 'btext-blueGray-600'
+                ? 'btext-slate-600'
                 : 'text-whit'}"
             >
               Angular Now UI Kit PRO
@@ -201,22 +201,22 @@
               <img
                 src={team1}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow"
               />
               <img
                 src={team2}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team3}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team4}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -254,7 +254,7 @@
             />
             <span
               class="ml-3 font-bold {color === 'light'
-                ? 'btext-blueGray-600'
+                ? 'btext-slate-600'
                 : 'text-whit'}"
             >
               Black Dashboard Sketch
@@ -277,22 +277,22 @@
               <img
                 src={team1}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow"
               />
               <img
                 src={team2}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team3}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team4}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -330,7 +330,7 @@
             />
             <span
               class="ml-3 font-bold {color === 'light'
-                ? 'btext-blueGray-600'
+                ? 'btext-slate-600'
                 : 'text-whit'}"
             >
               React Material Dashboard
@@ -353,22 +353,22 @@
               <img
                 src={team1}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow"
               />
               <img
                 src={team2}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team3}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team4}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -406,7 +406,7 @@
             />
             <span
               class="ml-3 font-bold {color === 'light'
-                ? 'btext-blueGray-600'
+                ? 'btext-slate-600'
                 : 'text-whit'}"
             >
               React Material Dashboard
@@ -430,22 +430,22 @@
               <img
                 src={team1}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow"
               />
               <img
                 src={team2}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team3}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
               <img
                 src={team4}
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
               />
             </div>
           </td>
