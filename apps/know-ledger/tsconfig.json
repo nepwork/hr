@@ -15,6 +15,7 @@
   },
   "files": [],
   "include": [],
+  "composite": true,
   "references": [
     {
       "path": "./tsconfig.app.json"

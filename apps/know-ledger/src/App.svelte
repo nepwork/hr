@@ -1,33 +1,33 @@
-<script lang="ts">
-  export let name: string;
+<!-- App.svelte -->
+<script>
+  // Admin Layout
+  import Admin from './layouts/Admin.svelte';
+  // Auth Layout
+  import Auth from './layouts/Auth.svelte';
+
+  // No Layout Pages
+  import Index from './views/Index.svelte';
+  import Landing from './views/Landing.svelte';
+  import Profile from './views/Profile.svelte';
+
+  import Router from 'svelte-spa-router';
+
+  const routes = {
+    // Exact path
+    '/': Index,
+
+    // Using named parameters, with last being optional
+    '/blog/': Landing,
+
+    // Wildcard parameter
+    '/profile/*': Profile,
+
+    '/admin': Admin,
+
+    // Catch-all
+    // This is optional, but if present it must be the last
+    '*': Auth,
+  };
 </script>
 
-<main>
-  <h1>Welcome {name}!</h1>
-  <p>
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
-  </p>
-</main>
-
-<style>
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
-</style>
+<Router {routes} />

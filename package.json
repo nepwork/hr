@@ -5,12 +5,18 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
+    "@popperjs/core": "^2.11.6",
+    "@tailwindcss/forms": "^0.5.3",
     "axios": "^1.0.0",
+    "chart.js": "^4.2.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.0.0",
+    "svelte-spa-router": "^3.3.0",
+    "svelvet": "^6.0.12",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -28,6 +34,8 @@
     "@nrwl/webpack": "15.8.1",
     "@nrwl/workspace": "15.8.1",
     "@nxext/svelte": "^15.7.0",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/builder-vite": "^0.2.6",
     "@storybook/core-server": "^6.5.15",
